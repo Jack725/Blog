@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package = "com.bean">
+	<class name = "User" table = "user">
+		<id name = "userID">
+			<generator class = "native"></generator>
+		</id>
+		<property name = "userName"></property>
+		<property name = "loginName"></property>
+		<property name = "password"></property>
+		<property name = "type"></property>
+		<property name = "userImage"></property>
+		<property name = "regTime"></property>
+		<property name = "email"></property>
+		<property name = "captcha"></property>
+		<property name = "state"></property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* font-size:16px;
+	color:#D0CCCC;
+	overflow:hidden;
+	text-shadow:0px 0px 1px rgba(24,22,22,0.35);
+	background-color:#000; */
+}
+
+#background_canvas{
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:-1;
+	opacity:1;
+}
