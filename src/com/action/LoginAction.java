@@ -24,7 +24,7 @@ public class LoginAction{
 		System.out.println("login Action");
 	}
 	public String login() throws IOException{
-		System.out.println("enter login~~~~");
+		System.out.println("enter login~~~11~");
 		HttpServletRequest request = ServletActionContext.getRequest();
 		HttpServletResponse response = ServletActionContext.getResponse();
 		HttpSession session = request.getSession();
